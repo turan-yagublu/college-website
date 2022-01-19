@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>XYZ University Events</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: rgb(148, 0, 0);
+  color: white;
+  padding: 1px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #080c03;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+</style>
+</head>
+<body>
+  <div id="google_translate_element"></div>
+  <script type="text/javascript"> 
+    function googleTranslateElementInit() {
+   new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+   }
+ </script>
+<div class="header">
+  <h1>XYZ University</h1>
+  <p style = "font-size: 30px;">Take part in campus life.</p>
+</div>
+<div class="topnav">
+    <a href="mainpage.html", span title = "Click to go to the main page"> Home page </a>
+    
+  <div class="dropdown">
+    <button class="dropbtn", span title = "Academics related info">Academics 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="majors.html", span title = "Click to get info about different majors">Majors</a>
+    </div>
+  </div> 
+    <div class="dropdown">
+        <button class="dropbtn", span title = "Learn about different types of events">Events  
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="sports.html", span title = "Learn sports schedule and buy sport event tickets">Sports</a>
+          <a href="theater.html", span title = "Learn theater schedule and buy theater tickets" >Theater</a>
+          <a href="music.html", span title = "Learn music event schedule and buy music event tickets">Music</a>
+        </div>
+      </div> 
+  </div>
+
+
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+
+<div class = "header">
+<p style = "font-size: 30px;">XYZ University is home to some exciting sport events that happen throughout the year. </p>
+<p style = "font-size: 30px;">These events attract some of the biggest crowds among any university from the city that you'll see! 
+</p>  
+<p style = "font-size: 30px;">Please click on the purchase button to purchase a ticket:</p>
+</div>
+<img alt="Basketball" src="https://www.ncaa.com/modules/custom/casablanca_core/img/sportbanners/basketball-men.png"
+  width=150" height="150"></button>
+  
+<div id="basketball" style="display: inline;">
+  <table style="width:100%">
+    <tr>
+      <th>Opponent</th>
+      <th>Date</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td>vs Syracuse</td>
+      <td>12/10/2021</td>
+      <td><a href = "bought.html" onclick="return confirm('Click OK to confirm that you really do want to purchase for the basketball game against Syracuse.')"> purchase </a></td>
+    </tr>
+    <tr>
+      <td>vs Stony Brook</td>
+      <td>12/15/2021</td>
+      <td><a href = "bought.html" onclick="return confirm('Click OK to confirm that you really do want to purchase for the basketball game against Stony Brook.')"> purchase </a></td>
+    </tr>
+    <tr>
+        <td>vs St John's</td>
+        <td>12/21/2021</td>
+        <td><a href = "bought.html" onclick="return confirm('Click OK to confirm that you really do want to purchase for the basketball game against St Johns')"> purchase </a></td>
+      </tr>
+      <tr>
+        <td>vs Buffalo</td>
+        <td>1/10/2022</td>
+        <td><a href = "bought.html" onclick="return confirm('Click OK to confirm that you really do want to purchase for the basketball game against Buffalo.')"> purchase </a></td>
+      </tr>
+  </table>
+  </div>
+  
+  
+<img alt="Baseball" src="https://www.ncaa.com/modules/custom/casablanca_core/img/sportbanners/baseball.png"
+  width=150" height="150"></button>
+
+  
+
+<div id="baseball" style="display: inline;">
+  <table style="width:100%">
+  <tr>
+    <th>Opponent</th>
+    <th>Date</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>vs Seton Hall</td>
+    <td>12/2/2021</td>
+    <td><a href = "bought.html" onclick="return confirm('Click OK to confirm that you really do want to purchase for the baseball game against Seton Hall.')"> purchase </a></td>
+  </tr>
+  <tr>
+    <td>vs SUNY Plattsburgh</td>
+    <td>12/15/2021</td>
+    <td><a href = "bought.html"onclick="return confirm('Click OK to confirm that you really do want to purchase for the baseball game against SUNY Plattsburgh.')"> purchase </a></td>
+  </tr>
+  <tr>
+      <td>vs Molloy College</td>
+      <td>12/17/2021</td>
+      <td><a href = "bought.html" onclick="return confirm('Click OK to confirm that you really do want to purchase for the baseball game against Molloy College.')"> purchase </a></td>
+    </tr>
+    <tr>
+      <td>vs SUNY Potsdam</td>
+      <td>1/23/2022</td>
+      <td><a href = "error.html" onclick="return confirm('Click OK to confirm that you really do want to purchase for the baseball game against SUNY Potsdam.')"> purchase </a></td>
+    </tr>
+</table>
+      </div>
+      
+      <img alt="Soccer" src="https://www.ncaa.com/modules/custom/casablanca_core/img/sportbanners/soccer-men.png"
+        width=150" height="150"></button>
+<div id="soccer" style="display: inline;" >
+  <table style="width:100%">
+    <tr>
+      <th>Opponent</th>
+      <th>Date</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td>vs Buffalo</td>
+      <td>12/1/2021</td>
+      <td><a href = "error.html" onclick="return confirm('Click OK to confirm that you really do want to purchase for the soccer game against Buffalo.')"> purchase </a></td>
+    </tr>
+    <tr>
+      <td>vs St John's</td>
+      <td>12/13/2021</td>
+      <td><a href = "bought.html" onclick="return confirm('Click OK to confirm that you really do want to purchase for the soccer game against St Johns.')"> purchase </a></td>
+    </tr>
+    <tr>
+        <td>vs Stony Brook</td>
+        <td>12/18/2021</td>
+        <td><a href = "bought.html" onclick="return confirm('Click OK to confirm that you really do want to purchase for the soccer game against Stony Brook.')"> purchase </a></td>
+      </tr>
+      <tr>
+        <td>vs Syracuse</td>
+        <td>1/1/2022</td>
+        <td><a href = "bought.html" onclick="return confirm('Click OK to confirm that you really do want to purchase for the soccer game against Syracuse.')"> purchase </a></td>
+      </tr>
+  </table>
+        
+              </div>
+              
+<script>
+  function myBasketballFunction() {
+    var x = document.getElementById("basketball");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  </script>
+
+
+
+<script>
+  function myBaseballFunction() {
+    var x = document.getElementById("baseball");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  </script>
+
+<script>
+  function mySoccerFunction() {
+
+    var x = document.getElementById("soccer");
+    if (x.style.display === "none") {
+      x.style.display = "block"
+      display: inline;
+    } else {
+      x.style.display = "none";
+    }
+  }
+  </script>
+</body>
+</html>
